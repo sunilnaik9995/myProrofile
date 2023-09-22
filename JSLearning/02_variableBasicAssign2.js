@@ -14,7 +14,7 @@ console.log("=======Before initialization========");
 var isWorking;
 console.log("isWorking:",isWorking,"type:",typeof isWorking);
 console.log("=======After initialization========");
-var isWorking = true;
+var isWorking = false;
 console.log("isWorking:",isWorking,"type:",typeof isWorking);
 console.log("=======Step 3========");
 var totalCount = 'Huundred and seven';
