@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+      label{
+        color: coral;
+        
+      }
+      input[type="text"]{
+        color: coral;
+        text-transform: capitalize ;
+        border-color: chocolate;
+        background-color: antiquewhite; 
+      }
+      button[type="reset"]{
+        color: coral;
+        background-color:silver;
+        border-color: chocolate;
+      }
+      button[type="submit"]{
+        color: coral;
+        background-color:silver;
+        border-color: chocolate;
+      }
+      h2{
+        
+            font-family: 'Roboto',sans-serif;
+            font-family: 'Poppins',sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 5px;
+            text-decoration: underline;
+           
+        
+      }
+      #formheading:hover{
+      color: cadetblue;
+      }
+      button[type="submit"]:hover{
+        color: cadetblue;
+      }
+      button[type="reset"]:hover{
+        color: rgb(140, 21, 250);
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="formheading">Employee Registration Form</h2>
+   
+    <table>
+      <tbody>
+        <form>
+          <tr>
+            <td><label for="">First Name</label></td>
+            <td><input type="text" maxlength="40" required placeholder="COMPLETE FULL NAME" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Email </label></td>
+            <td><input type="text" required placeholder="Ex.abc.@gmail.com" >
+            </td>
+              <tr>
+                <td><label for=""> Password</label></td>
+                <td><input type="password" /></td>
+              </tr>
+          </tr>
+          <tr>
+            <td><label for=""> Contact Number </label></td>
+            <td><input type="number"></td>
+          </tr>
+          <tr>
+            <td><label for="">profile photo</label></td>
+            <td><input type="file"></td>
+          </tr>
+          <tr>
+            <tr>
+              <td><label for="">Date of Birth</label></td>
+              <td><input type="date" required /></td>
+            </tr>
+            <tr>
+              <td> <label for=""> Select Gender </label> </td>
+              <td> 
+                  <input type="radio" name="gender"> <label for=""> Male</label>
+                  <input type="radio" name="gender"> <label for=""> Female</label>
+                  <input type="radio" name="gender"> <label for=""> Transgender</label>
+              </td>
+            </tr>
+            <tr>
+              <td> <label for="">Married Status </label> </td>
+              <td> 
+                  <input type="radio" name="Married Status"> <label for=""> Yes</label>
+                  <input type="radio" name="Married Status"> <label for=""> No</label>
+              </td>
+            </tr>
+            <tr>
+              <td> <label for=""> Known Tools & Technology </label> </td>
+              <td> 
+                  <input type="checkbox">  <label for="">Angular</label>
+                  <input type="checkbox"> <label for="">React</label>
+                  <input type="checkbox"> <label for="">JavaScript</label>
+                  <input type="checkbox"> <label for="">Python</label>
+                  <input type="checkbox"> <label for="">GIT</label>
+              </td>
+          </tr>
+          <tr>
+            <td><label for="">Designation</label></td>
+            <td>
+              <select>
+              <option value="UI developer">UI developer</option>
+              <option value="Angular developer">Angular developer</option>
+            </select>
+          </td>
+          </tr> 
+          <tr>
+            <td><label for="">country</label></td>
+            <td><input type="text" value="india" readonly></td>
+          </tr>
+        <tr>
+          <td><label for="">permanent address</label></td>
+          <td> <textarea name="" id="" cols="7" rows="7"></textarea></td>
+        </tr>
+          <tr>
+            <td><button type="reset">Reset</button></td>
+            <td><button type="submit">Submit</button></td>
+          </tr>
+         
+        </form>
+      </tbody>
+    </table>
+    
+    <!-- Footer section -->
+    <footer>
+      <label for=""><strong> Follow me </strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://in.linkedin.com">
+        <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.google.com">
+        <i class="fa fa-2x fa-google" aria-hidden="true"></i>
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.instagram.com">
+        <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.facebook.com">
+        <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+      </a>
+    </footer>
+  </body>
+</html>

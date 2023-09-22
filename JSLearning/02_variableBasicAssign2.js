@@ -1,0 +1,24 @@
+console.log("=======Assignment No.2========");
+console.log("=======Step 1========");
+console.log("=======Before initialization========");
+var bankName;
+console.log("Bank Name : undefined data type:",typeof bankName );
+console.log("=======After initialization========");
+var bankName = 'SBI';
+console.log("bank Name:",bankName,"type of data:",typeof bankName);
+console.log("=======Step 2========");
+var hscMarks = '90%';
+console.log("Marks:",hscMarks,"type:",typeof hscMarks);
+console.log("=======Step 3========");
+console.log("=======Before initialization========");
+var isWorking;
+console.log("isWorking:",isWorking,"type:",typeof isWorking);
+console.log("=======After initialization========");
+var isWorking = true;
+console.log("isWorking:",isWorking,"type:",typeof isWorking);
+console.log("=======Step 3========");
+var totalCount = 'Huundred and seven';
+console.log("totalCount:",totalCount,"type:", typeof totalCount);
+var totalCount = 107;
+console.log("totalCount:",totalCount,"type:", typeof totalCount);
+
